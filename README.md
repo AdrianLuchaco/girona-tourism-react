@@ -154,10 +154,10 @@ All multimedia files are stored in the `/public` directory:
 
 ## 🎓 Academic Project
 
-**Course**: Multimedia - GEINF/GDDV  
+**Course**: Multimedia - GEINF
 **University**: Universitat de Girona (UdG)  
-**Student**: Adrian Luchaco  
-**Date**: December 2024
+**Student**: Adrian Cano Cabello  
+**Date**: December 2025
 
 ## 📝 Documentation
 
