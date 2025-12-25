@@ -1,70 +1,191 @@
-# Getting Started with Create React App
+# 🏰 Girona Tourism Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based tourism promotion website showcasing the beautiful medieval city of Girona, Catalonia.
 
-## Available Scripts
+![Girona Tourism]
 
-In the project directory, you can run:
+## 📋 Project Overview
 
-### `npm start`
+This project is an interactive, multimedia-rich web application designed to promote tourism in Girona, Spain. Built with React, it features:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🎬 **Cinematic Video Tour** - 2-minute drone footage of Girona
+- 🎧 **Audio Guide** - Custom-recorded narration about the city
+- 🖼️ **Edited Photography** - Professional images with filters and enhancements
+- 🎯 **Interactive Activity Planner** - Select and book tourist activities
+- 🛒 **Smart Cart System** - Real-time trip planning with price calculation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Key Features
 
-### `npm test`
+### Multimedia Integration
+- **Video**: 2-minute cinematic drone footage with volume control
+- **Audio**: 45-second narrated guide (original recording)
+- **Images**: Professionally edited photos of Girona Cathedral
+- **Synchronization**: Audio-video playback coordination
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Interactive Elements
+- **Activity Gallery**: Browse 6 curated tourist experiences
+- **Experience Summaries**: Modal galleries with multiple images per activity
+- **Trip Planner Cart**: Floating widget for activity management
+- **Booking Confirmation**: Animated success messages
 
-### `npm run build`
+### Design
+- **Modern UI**: Gradient backgrounds with Google Fonts
+- **Responsive Layout**: Mobile-friendly design
+- **Smooth Animations**: Hover effects and transitions
+- **Accessible Navigation**: Smooth scroll between sections
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🎯 Tourist Activities
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Cathedral Tour** (€15) - Explore the widest Gothic nave in the world
+2. **Jewish Quarter Walk** (€12) - Discover El Call, one of Europe's best-preserved Jewish quarters
+3. **City Walls Experience** (€10) - Walk medieval walls with panoramic views
+4. **Onyar River Houses** (€8) - Photo tour of iconic colorful houses
+5. **Gastronomic Tour** (€45) - Taste authentic Catalan cuisine
+6. **Arab Baths Visit** (€7) - Explore 12th-century Romanesque baths
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Technology Stack
 
-### `npm run eject`
+- **Frontend**: React 18
+- **Styling**: CSS-in-JS + External CSS
+- **Fonts**: Google Fonts (Playfair Display, Lato)
+- **State Management**: React Hooks (useState, useRef, useEffect)
+- **Version Control**: Git + GitHub
+- **Development**: Visual Studio Code
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📁 Project Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+girona-tourism-react/
+├── public/
+│   ├── index.html
+│   ├── girona-cathedral-edited.jpg
+│   ├── girona-audio-guide.mp3
+│   └── girona-tour.mp4
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── Hero.jsx
+│   │   ├── About.jsx
+│   │   ├── MediaGallery.jsx
+│   │   ├── Activities.jsx
+│   │   ├── Cart.jsx
+│   │   └── Footer.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   └── index.js
+├── package.json
+└── README.md
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🚀 Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Prerequisites
 
-## Learn More
+- Node.js (v14 or higher)
+- npm (comes with Node.js)
+- Git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/AdrianLuchaco/girona-tourism-react.git
+   ```
 
-### Code Splitting
+2. **Navigate to project directory**
+   ```bash
+   cd girona-tourism-react
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-### Analyzing the Bundle Size
+4. **Start the development server**
+   ```bash
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+5. **Open in browser**
+   - The app will automatically open at `http://localhost:3000`
+   - If not, navigate to the URL manually
 
-### Making a Progressive Web App
+### Build for Production
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm run build
+```
 
-### Advanced Configuration
+This creates an optimized production build in the `build/` folder.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🎨 Design Features
 
-### Deployment
+### Color Palette
+- **Primary**: Dark Blue (#2c3e50) - Headers and text
+- **Secondary**: Bright Blue (#3498db) - Interactive buttons
+- **Accent**: Green (#27ae60) - Prices and success states
+- **Background**: Lavender to Blue gradient
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Typography
+- **Headings**: Playfair Display (Serif) - Elegant and classic
+- **Body**: Lato (Sans-serif) - Clean and readable
 
-### `npm run build` fails to minify
+### Layout
+- Maximum content width: 1200px
+- Responsive grid system
+- Mobile-first approach
+- Smooth scroll navigation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🎬 Multimedia Files
+
+All multimedia files are stored in the `/public` directory:
+
+- **Video**: `girona-tour.mp4` (2-minute drone footage)
+- **Audio**: `girona-audio-guide.mp3` (45-second narration)
+- **Image**: `girona-cathedral-edited.jpg` (Edited with Canva)
+
+## 📊 Project Statistics
+
+- **Components**: 7 React components
+- **Code**: ~800+ lines
+- **Multimedia**: 3 files (video, audio, image)
+- **Features**: 4 interactive systems
+- **Development Time**: 8-10 hours
+
+## 🎓 Academic Project
+
+**Course**: Multimedia - GEINF/GDDV  
+**University**: Universitat de Girona (UdG)  
+**Student**: Adrian Luchaco  
+**Date**: December 2024
+
+## 📝 Documentation
+
+For detailed technical documentation, see [Technical Report](./technical_report.pdf)
+
+## 🔮 Future Enhancements
+
+- [ ] Backend integration for bookings
+- [ ] User authentication system
+- [ ] Multi-language support (Catalan, Spanish, English)
+- [ ] 360° virtual tours
+- [ ] Interactive maps
+- [ ] Social media integration
+- [ ] User reviews and ratings
+
+## 📄 License
+
+This project is created for educational purposes as part of the Multimedia course at UdG.
+
+## 🙏 Acknowledgments
+
+- **Video Source**: Pexels (royalty-free)
+- **Images**: Pixabay (royalty-free)
+- **Fonts**: Google Fonts
+- **Icons**: Unicode Emojis
+
+---
+
+**Made with ❤️ in Girona, Adrian Cano Cabello**
+
