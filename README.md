@@ -2,7 +2,6 @@
 
 A React-based tourism promotion website showcasing the beautiful medieval city of Girona, Catalonia.
 
-![Girona Tourism]
 
 ## 📋 Project Overview
 
